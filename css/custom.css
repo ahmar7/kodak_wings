@@ -2,6 +2,14 @@
     font-family: bellaboo;
     src: url(../font/Bellaboo.woff2.ttf);
 }
+@font-face {
+    font-family: cartoonist;
+    src: url(../font/cartoonist_kooky.ttf);
+}
+@font-face {
+    font-family: Balmy;
+    src: url(../font/Balmy.ttf);
+}
 
 @font-face {
     font-family: lemonmilk;
@@ -9,7 +17,7 @@
 }
 
 body {
-    background-color: #250703;
+    background-color: #ff5901;
 }
 
 .hero-sec {
@@ -46,38 +54,44 @@ body {
 
 .man-img img {
     /* width: 37vw !important; */
-    width: 75vh;
+    width: 87vh;
     position: absolute;
-    bottom: 0;
+    bottom: -100px;
     z-index: -99;
-    right: 0;
+    right: 30px;
 
     /* width: 100%; */
 
 }
 
 .hero-heading h1 {
-    color: #ff7b1b;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 6vw;
+    color: black;
+   font-family: 'Carter One', cursive;
+    font-size: 5.5vw; 
     line-height: 12vh;
+    text-align: center;
 
 }
 
 .content-area {
-    padding: 3vw 6vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 3.5vw 6vw;
 }
-
+.containerer{
+    max-width: 90%;
+    margin: 0 auto;
+}
 .orange-btn {
 
-    font-size: 2.6vw;
-    background-color: #ff7b1b;
-    color: white;
-    outline: none;
-    font-family: 'Archivo Black', sans-serif;
+    font-size: 3vw;
+    background-color: black;
+    color: #ff5901;
+    outline: none;font-family: 'Montserrat', sans-serif;
     border: none;
     cursor: pointer;
-    border-radius: 10px;
+    border-radius: 20px;
     font-weight: bolder;
     padding: 8px 20px;
     box-sizing: border-box;
@@ -85,32 +99,48 @@ body {
 
 .btn-container {
     width: fit-content;
-    margin-top: 7vh;
+    margin: 0 auto;
+    margin-top: 0vh;
 }
 
 .btn-container h3 {
-    color: #ff7b1b;
-    font-size: 0.8vw;
-    font-weight: 400;
+    color: #000000;
+    font-size: 1.2vw;
+    line-height: normal !important;
+    margin-top: 10px;
+    font-weight: 800;
+ text-shadow: none !important;
 
-    margin-top: 2vh;
-
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Montserrat', sans-serif !important;
 
     text-align: center;
 }
 
 .menu-sec {
     /* min-height: 100vh; */
+    background-color: #00D134;
 }
-
+.alter-nat{
+    color: #00D134!important;
+    font-size: 2.5vw;
+}
+.smaller{
+    font-size: 2vw !important;
+}
+.abs-man{
+    position: absolute;
+    bottom: -27px;
+    left: 30px;
+    width:250px;
+}
 .menu-sec {
+    position: relative;
     /* display: flex;
     justify-content: center;
     align-items: center;
 
     flex-direction: column; */
-    padding: 60px 0;
+    padding: 40px 0;
 }
 
 .menu-head {
@@ -120,10 +150,10 @@ body {
 }
 
 .menu-head h1 {
-    font-family: 'Archivo Black', sans-serif;
+    font-family: 'Carter One', cursive;
     text-align: center;
     font-size: 4rem;
-    color: #ff7b1b;
+    color: black
 }
 
 .food-carousel .food-card .details h2 {
@@ -169,13 +199,15 @@ body {
 
 .video-sec {
     padding: 60px 50px 30px 30px;
+    position: relative;
 }
 
 .flex-video {
-    display: flex;
+    min-height: 100vh;
+    /* display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 85%;
+    justify-content: space-between; */
+   text-align: center;
     margin: 0 auto;
     position: relative;
 }
@@ -186,16 +218,43 @@ body {
 }
 
 .text-head {
-    color: #ff7b1b;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 3rem;
-    line-height: 50px;
+    color: black;
+    text-align: center;
+   font-family: 'Carter One', cursive;
+    font-size: 3.5vw; 
+    line-height: 7.5vh;
 }
-
+.hori-video{
+    width: 45%;
+    margin: 60px 0;
+}
 .custom-btn button {
     font-size: 1.6rem !important;
 }
+.desc-section{
+    background-color: #00D134;
+    padding: 50px 30px 50px 30px;
 
+    text-align: center;
+}
+
+.desc-section h1{ 
+     font-family: 'Carter One', cursive;
+    text-align: center;
+    font-size: 2.7vw;
+    color: black
+    
+
+}
+.mar
+{
+    margin-top: 30px ;
+}
+.custom-last{
+    line-height: 3vh;
+    font-size: 1.1vw;
+    font-family: cartoonist;
+}
 .slick-track {
     display: flex;
     justify-content: center;
@@ -298,7 +357,9 @@ body {
     margin-bottom: -10px;
     z-index: -9;
 }
-
+.mbl-for{
+    display: none;
+}
 .gosht img {
 
     width: 320px;
@@ -334,7 +395,7 @@ body {
     }
 
     .hero-heading h1 {
-        font-size: 6rem;
+        font-size: 4rem;
         line-height: 86px;
     }
 
@@ -344,12 +405,11 @@ body {
     }
 
     .btn-container h3 {
-        font-size: 0.8rem;
-        margin-top: 10px;
+        font-size: 0.8rem; 
     }
 
     .btn-container {
-        margin-top: 50px;
+        margin-top: 00px;
     }
 }
 
@@ -426,9 +486,37 @@ body {
 }
 
 
+@media (max-width:900px) {
+    .hero-heading h1 br{
+        display: none;
+    }
+    
+    .hero-heading h1 {
+        width: 430px;
+    font-size: 3rem;
+    line-height: 63px;
+
+}
+}
 @media (max-width:768px) {
+    .btn-container{
+        margin: 0;
+    }
+    .hero-heading h1{
+        width: auto;
+    }
+  
+    .desk-for{
+        display:  none;
+    }
+    .man-img img{
+        right: -95px;
+    }
     .flex-video {
         flex-direction: column;
+    }
+    .mbl-for{
+        display: block;
     }
 
     .video-sec .btn-container {
@@ -548,6 +636,15 @@ body {
 }
 
 @media (max-width:650px) {
+      .mbl-for {
+    display: block;
+    width: 400px;
+}
+.content-area {
+  
+    padding: 3.5vw 20px;
+}
+ 
     .cursive {
         font-size: 2.5rem;
     }
@@ -583,7 +680,8 @@ body {
     }
 
     .btn-container {
-        margin-top: 25px !important;
+    margin:  0 auto;
+
     }
 
     .below-img {
@@ -604,10 +702,19 @@ body {
     }
 
     .orange-btn {
-        font-size: 1.7rem;
+        font-size: 2.4rem;
     }
 }
 
+@media (max-width:550px) {
+    .mbl-for{
+        width: 320px;
+    }
+    .orange-btn{
+        font-size: 1.7rem;
+        margin-top: -10px;
+    }
+}
 @media (max-width:480px) {
     .challenge-head {
         font-size: 3rem;
