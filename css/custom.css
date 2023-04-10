@@ -805,3 +805,22 @@ margin-top: 20px !important;
         font-size: 2.7rem;
     }
 }
+@media (max-width:389px) {
+    .mbl-for{
+        width: 240px;
+    }
+    
+    .man-img img {
+    width: 329px;
+    bottom: -19px;
+}
+.orange-btn{
+    font-size: 1.4rem;
+}
+.hero-sec{
+    padding-top: 80px !important;
+}
+.btn-container h3{
+    font-size: 0.7rem;
+}
+}
