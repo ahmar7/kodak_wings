@@ -382,8 +382,12 @@ body {
 .mbl-only {
     display: none;
 }
-
+.mbl-only{
+    display: none;
+}
 @media (max-width:1300px) {
+    .hori-video {
+    width: 643px;}
     .text-head {
         font-size: 2.5rem;
     }
@@ -439,13 +443,24 @@ body {
         font-size: 2rem;
         line-height: 35px;
     }
+    .menu-sec{
+        padding-bottom: 150px;
+    }
 }
 
 
 @media (max-width:1050px) {
+    .smaller{
+        font-size: 1.5rem !important;
+        margin-top: 30px !important;
+    }
+.desc-section h1{
+    font-size: 30px;
+}
 
-
-
+.custom-last{
+    font-size: 18px;
+}
     .menu-head h1 {
         font-size: 3rem;
         line-height: 3rem;
@@ -499,9 +514,25 @@ body {
 }
 }
 @media (max-width:768px) {
+     .menu-sec{
+        padding-bottom: 200px !important;
+    }
+    .abs-man {
+    position: absolute;
+    bottom: -21px;
+    left: 30px;
+    width: 193px;
+}
+.menu-sec .orange-btn{
+    font-size: 1.8rem !important;
+}
     .btn-container{
         margin: 0;
     }
+    .btn-container.text-center{
+margin: 0 auto !important;
+margin-top: 20px !important;
+    } 
     .hero-heading h1{
         width: auto;
     }
@@ -519,9 +550,7 @@ body {
         display: block;
     }
 
-    .video-sec .btn-container {
-        display: none;
-    }
+    
 
     .right-video {
         margin-top: 15px;
@@ -577,13 +606,27 @@ body {
     }
 
     .video-sec {
-        padding: 30px 15px;
+        padding: 40px 15px;
     }
 
     .challenge-flex {
         flex-direction: column;
     }
-
+    .video-sec .btn-container{
+        margin: 0 auto;
+    }
+.mbl-only{
+    display: block;
+    width: 300px;
+    margin: 40px auto;
+}
+.text-head{
+    width: 300px ;
+    margin: 0 auto;
+}
+.flex-video{
+    min-height: auto;
+}
     .desk-only {
         display: none;
     }
@@ -625,6 +668,9 @@ body {
 
     .challenge-sec {
         padding-bottom: 224px;
+    }
+    .desc-section h1{
+        color: white;
     }
 
     .challenge-img {
@@ -689,7 +735,7 @@ body {
     }
 
     .menu-sec .orange-btn {
-        font-size: 1.5rem !important;
+        font-size: 1.7rem !important;
     }
 
     .man-img img {
@@ -707,6 +753,9 @@ body {
 }
 
 @media (max-width:550px) {
+    .desc-section h1{
+        font-size: 25px;
+    }
     .mbl-for{
         width: 320px;
     }
@@ -716,6 +765,12 @@ body {
     }
 }
 @media (max-width:480px) {
+    .desc-section h1{
+        font-size: 20px;
+    }
+    .desc-section{
+        padding: 50px 10px;
+    }
     .challenge-head {
         font-size: 3rem;
         line-height: 45px;
