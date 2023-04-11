@@ -377,7 +377,13 @@ body {
     margin-bottom: -8px;
     z-index: 0;
 }
-
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.food-carousel .food-card{
+    width: 25%;
+}
 /* */
 .mbl-only {
     display: none;
@@ -512,6 +518,14 @@ body {
     line-height: 63px;
 
 }
+.flex-center{
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.food-carousel .food-card{
+    width: 75%;
+}
 }
 @media (max-width:768px) {
      .menu-sec{
@@ -531,7 +545,7 @@ body {
     }
     .btn-container.text-center{
 margin: 0 auto !important;
-margin-top: 20px !important;
+margin-top: 50px !important;
     } 
     .hero-heading h1{
         width: auto;
@@ -546,6 +560,10 @@ margin-top: 20px !important;
     .flex-video {
         flex-direction: column;
     }
+.flex-center{
+
+gap: 30px;
+}
     .mbl-for{
         display: block;
     }
@@ -684,6 +702,9 @@ margin-top: 20px !important;
 }
 
 @media (max-width:650px) {
+    .food-carousel .food-card{
+        width: 66%;
+    }
       .mbl-for {
     display: block;
     width: 400px;
