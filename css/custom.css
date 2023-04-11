@@ -831,7 +831,7 @@ gap: 30px;
         font-size: 2.7rem;
     }
 }
-@media (max-width:389px) {
+@media (max-width:420px) {
     .mbl-only{
         width: 250px;
     }
