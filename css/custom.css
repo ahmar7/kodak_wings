@@ -372,6 +372,9 @@ body {
 
     width: 480px;
 }
+.log2{
+    width: 80%;
+}
  .mbl-text{
         display: none;
     }
@@ -660,6 +663,9 @@ gap: 30px;
     .video-sec .btn-container{
         margin: 0 auto;
     }
+    .btn-container{
+        margin: 0;
+    }
 .mbl-only{
     display: block;
     width: 300px;
@@ -774,10 +780,13 @@ gap: 30px;
     }
 
     .btn-container {
-    margin:  0 auto;
+    margin:  0 ;
 
     }
-
+.hero-heading{
+    margin-top: 10px;
+    margin-left: 20px;
+}
     .below-img {
         height: 70%;
     }
@@ -890,6 +899,14 @@ gap: 30px;
     bottom: 19px;
     right: -75px;
 }
+.log2{
+    width: 90%;
+
+}
+.hero-heading{
+    margin-top: 20px;
+}
+
 }
 @media (max-width:400px) {
     .cursive {
@@ -909,6 +926,9 @@ gap: 30px;
     }
 }
 @media (max-width:389px) {
+.hero-heading{
+    /* margin-left: 10px; */
+}
     .mbl-only{
         width: 250px;
     }
