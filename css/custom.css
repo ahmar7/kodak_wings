@@ -372,7 +372,12 @@ body {
 
     width: 480px;
 }
-
+ .mbl-text{
+        display: none;
+    }
+    .log{
+        width: 100%;
+    }
 .challenge-img {
     position: absolute;
     bottom: 0;
@@ -542,6 +547,12 @@ body {
 }
 }
 @media (max-width:768px) {
+    .desk-text{
+        display: none;
+    }
+    .mbl-text{
+        display: block;
+    }
      .menu-sec{
         padding-bottom: 200px !important;
     }
@@ -866,10 +877,10 @@ gap: 30px;
         padding: 0;
     }
     .mbl-for{
-        width: 270px;
+        width: 280px;
     }
     .orange-btn{
-        font-size: 1.5rem;
+        font-size: 1.8rem;
     }
     .btn-container h3{
         font-size: 0.8rem;
@@ -885,9 +896,9 @@ gap: 30px;
         font-size: 29px;
     }
       .man-img img {
-    width: 50vh;
+    width: 48vh;
     bottom: 19px;
-    right: -75px;
+    right: -45px;
 }
 
     .challenge-head {
@@ -902,15 +913,15 @@ gap: 30px;
         width: 250px;
     }
     .mbl-for{
-        width: 240px;
+        width: 270px;
     }
     
     .man-img img {
-    width: 56vh;
+    width: 53vh;
     bottom: -19px;
 }
 .orange-btn{
-    font-size: 1.4rem;
+    font-size: 1.8rem;
 }
 .hero-sec{
     padding-top: 70px !important;
