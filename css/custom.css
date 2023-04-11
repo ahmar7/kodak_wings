@@ -832,7 +832,7 @@ gap: 30px;
     }
 }
     .man-img img {
-        display: none;
+        display: none !important;
     }
 @media (max-width:425px) {
     .mbl-only{
