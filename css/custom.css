@@ -774,15 +774,15 @@ gap: 30px;
         font-size: 2.4rem;
     }
     .btn-container h3 {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
 }
 .mbl-for {
-    width: 195px;
+    width: 300px;
 }.hero-heading h1{
     line-height: 40px;
 }
 .orange-btn {
-    font-size: 1.1rem; 
+    font-size: 1.5rem; 
 }
 .man-img img {
     width: 481px;
@@ -793,6 +793,9 @@ gap: 30px;
 }
 
 @media (max-width:550px) {
+    .man-img img{
+        width: 425px;
+    }
     .custom-last{
     font-size: 14px;
 }
@@ -838,6 +841,10 @@ gap: 30px;
     .custom-last{
         font-size: 12px;
     }
+    .man-img img{
+        width: 375px;
+        right: -64px;
+    }
 }
 
 @media (max-width:450px) {
@@ -845,18 +852,18 @@ gap: 30px;
         padding: 0;
     }
     .mbl-for{
-        width: 200px;
+        width: 250px;
     }
     .orange-btn{
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
     .btn-container h3{
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
-    .man-img img {
-    width: 494px;
+   .man-img img {
+    width: 400px;
     bottom: 19px;
-    right: -89px;
+    right: -75px;
 }
 }
 @media (max-width:400px) {
