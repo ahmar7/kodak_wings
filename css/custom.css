@@ -367,6 +367,13 @@ body {
 
     width: 320px;
 }
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+.log3{
+    width: 70%;
+}
 
 .challenge-img img {
 
