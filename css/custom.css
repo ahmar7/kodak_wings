@@ -811,6 +811,9 @@ margin-top: 20px !important;
     }
 }
 @media (max-width:389px) {
+    .mbl-only{
+        width: 250px;
+    }
     .mbl-for{
         width: 240px;
     }
