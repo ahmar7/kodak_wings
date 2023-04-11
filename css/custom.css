@@ -831,6 +831,9 @@ gap: 30px;
         font-size: 2.7rem;
     }
 }
+    .man-img img {
+        display: none;
+    }
 @media (max-width:425px) {
     .mbl-only{
         width: 250px;
