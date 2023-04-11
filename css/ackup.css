@@ -138,7 +138,6 @@ body {
     /* display: flex;
     justify-content: center;
     align-items: center;
-
     flex-direction: column; */
     padding: 40px 0;
 }
@@ -711,7 +710,7 @@ gap: 30px;
 }
 .content-area {
   
-    padding: 0px 10px;
+    padding: 3.5vw 20px;
 }
  
     .cursive {
@@ -773,23 +772,6 @@ gap: 30px;
     .orange-btn {
         font-size: 2.4rem;
     }
-    .btn-container h3 {
-    font-size: 0.6rem;
-}
-.mbl-for {
-    width: 195px;
-}.hero-heading h1{
-    line-height: 40px;
-}
-.orange-btn {
-    font-size: 1.1rem; 
-}
-.man-img img {
-    width: 481px;
-    bottom: -3px;
-    right: -81px
-}
-
 }
 
 @media (max-width:550px) {
@@ -799,11 +781,13 @@ gap: 30px;
     .desc-section h1{
         font-size: 25px;
     }
-   
-    /* .orange-btn{
+    .mbl-for{
+        width: 320px;
+    }
+    .orange-btn{
         font-size: 1.7rem;
         margin-top: -10px;
-    } */
+    }
 }
 @media (max-width:480px) {
     .desc-section h1{
@@ -840,25 +824,6 @@ gap: 30px;
     }
 }
 
-@media (max-width:450px) {
-    .content-area{
-        padding: 0;
-    }
-    .mbl-for{
-        width: 170px;
-    }
-    .orange-btn{
-        font-size: 1rem;
-    }
-    .btn-container h3{
-        font-size: 0.5rem;
-    }
-    .man-img img {
-    width: 494px;
-    bottom: 19px;
-    right: -89px;
-}
-}
 @media (max-width:400px) {
     .cursive {
         font-size: 29px;
@@ -871,7 +836,7 @@ gap: 30px;
         font-size: 16px;
     }
 }
-/* @media (max-width:389px) {
+@media (max-width:389px) {
     .mbl-only{
         width: 250px;
     }
@@ -892,4 +857,4 @@ gap: 30px;
 .btn-container h3{
     font-size: 0.7rem;
 }
-} */
+}
