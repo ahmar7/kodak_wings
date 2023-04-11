@@ -130,11 +130,11 @@ body {
 .smaller{
     font-size: 2vw !important;
 }
-.abs-man{
+.abs-man {
     position: absolute;
-    bottom: -27px;
-    left: 30px;
-    width:250px;
+    bottom: -77px;
+    left: 10px;
+    width: 350px;
 }
 .menu-sec {
     position: relative;
@@ -458,6 +458,14 @@ body {
 }
 
 
+@media (max-width:1500px) {
+    .abs-man {
+    position: absolute;
+    bottom: -66px;
+    left: -10px;
+    width: 298px;
+}
+}
 @media (max-width:1050px) {
     .smaller{
         font-size: 1.5rem !important;
@@ -511,6 +519,9 @@ body {
 
 
 @media (max-width:900px) {
+    .menu-sec{
+        padding-bottom: 200px;
+    }
     .hero-heading h1 br{
         display: none;
     }
@@ -534,11 +545,11 @@ body {
      .menu-sec{
         padding-bottom: 200px !important;
     }
-    .abs-man {
+.abs-man {
     position: absolute;
-    bottom: -21px;
-    left: 30px;
-    width: 193px;
+    bottom: -56px;
+    left: 0;
+    width: 255px;
 }
 .menu-sec .orange-btn{
     font-size: 1.8rem !important;
