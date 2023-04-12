@@ -75,6 +75,9 @@ body {
     font-family: 'Carter One', cursive !important;
 
 }
+.custom-desk{
+    width: 40vw;
+}
 
 .content-area {
     display: flex;
@@ -102,10 +105,13 @@ body {
 
 .btn-container {
     width: fit-content;
-    margin: 0 auto;
+    margin: 0 ;
     margin-top: 0vh;
 }
 
+.btn-container.auotmar {
+    margin: 0 auto;
+}
 .btn-container h3 {
     color: #000000;
     font-size: 1.2vw;
@@ -948,8 +954,12 @@ gap: 30px;
     }
     
     .man-img img {
-    width: 53vh;
+    width: 45vh;
     bottom: -30px;
+}
+
+.hero-heading {
+    margin-top: 30px;
 }
 .orange-btn{
     font-size: 1.9rem;
